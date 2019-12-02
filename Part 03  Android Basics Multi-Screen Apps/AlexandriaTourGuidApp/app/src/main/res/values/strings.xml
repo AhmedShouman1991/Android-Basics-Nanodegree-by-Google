@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Alexandria Tour Guid App</string>
+    <string name="click_to_start">Click here to start you tour..</string>
+    <string name="img1_text">"Stanly Bridge in Alexandria"</string>
+    <string name="img2_text">Alexandria University</string>
+    <string name="img3_text">Obelisk of Pharaonic civilization</string>
+    <string name="img4_text">"Montazah Palace"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="brazilian">Brazilian Coffee"</string>
+    <string name="braz_type">Coffee and Tea</string>
+    <string name="braz_opening">From 10:00 am to 1:00 am</string>
+    <string name="braz_add">44 Saad Zaghloul St., Alexandria 21599, Egypt</string>
+
+    <string name="trianon">Trianon</string>
+    <string name="tria_type">Coffee and Tea</string>
+    <string name="tri_opening">From 10:00 am to 1:00 am</string>
+    <string name="tria_add">7 Kafafis St., Alexandria 21599, Egypt</string>
+
+    <string name="l_p">L Passage</string>
+    <string name="l_p_type">Coffee and Tea</string>
+    <string name="l_p_opening">From 10:00 am to 1:00 am</string>
+    <string name="l_p_add">752 Fouad Street | Beside the Old Alexandria Governorate Building, Alexandria 21599, Egypt</string>
+
+    <string name="gad">Gad Restaurants</string>
+    <string name="gad_type">Fast Food, Middle Eastern, Egyptian</string>
+    <string name="gad_opening">From 8:00 am to 10:00 pm</string>
+    <string name="gad_add">3 Saad Zaghloul St. | Raml Station, Alexandria 21599, Egypt</string>
+
+    <string name="elfallah">El-Fallah Restaurants</string>
+    <string name="fal_type">Egyptian</string>
+    <string name="fal_opening">From 9:00 am to 12:00 am</string>
+    <string name="fal_add">6 El Tahrir Sq. Beside El Didy Shop | Besides Cinema Metro, Alexandria 21599, Egypt</string>
+
+    <string name="ginger">Ginger</string>
+    <string name="gin_type">Asian, Sushi, Vegetarian Friendly</string>
+    <string name="gin_opening">From 8:00 am to 10:00 pm</string>
+    <string name="ging_add">Hilton Green Plaza, 14th of May Bridge Road - Smouha, Alexandria 21599, Egypt</string>
+
+    <string name="san_stifano">San Stefano Cinema</string>
+    <string name="cinema">Entertainment, Movies</string>
+    <string name="san_opening">From 4:00 pm to 2:00 am</string>
+    <string name="san_add">San Stefano mall, Alexandria 21599, Egypt</string>
+
+    <string name="vox">Vox Cinema</string>
+    <string name="vox_opening">From 4:30 pm to 2:30 am</string>
+    <string name="vox_add">Alexandria City Center Mall, Alexandria 21599, Egypt</string>
+
+    <string name="green">Green Plaza Cinema</string>
+    <string name="green_opening">From 4:00 pm to 2:00 am</string>
+    <string name="green_add">Green Plaza Mall, Alexandria 21599, Egypt</string>
+
+    <string name="bib">Bibliotheca Alexandrina</string>
+    <string name="bib_type">Historical, Entertainment, Books</string>
+    <string name="bib_opening">From 8:00 am to 10:00 pm</string>
+    <string name="bib_add">22 El-Sahtby st., Alexandria 21599, Egypt</string>
+
+    <string name="anm">Alexandria National Museum</string>
+    <string name="anm_type">Historical, Entertainment</string>
+    <string name="anm_opening">From 9:00 am to 9:00 pm</string>
+    <string name="anm_add">131 El-Shaheed Galal El-Desouky, Alexandria 21599, Egypt</string>
+
+    <string name="cof">Citadel Of Qaitbay</string>
+    <string name="cof_type">Historical, Religion, Entertainment</string>
+    <string name="cof_opening">From 8:00 am to 10:00 pm</string>
+    <string name="cof_add">As Sayalah Sharq, Qesm Al Gomrok, Alexandria Governorate</string>
+</resources>

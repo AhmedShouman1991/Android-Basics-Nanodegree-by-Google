@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFA5"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_icon"
+        style="@style/main_linear">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/localPlay"
+                style="@style/main_imgs"
+                android:src="@drawable/local" />
+
+            <Button
+                android:id="@+id/goto_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/localPlay"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="@string/main_to_local"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/onlineSearch"
+                style="@style/main_imgs"
+                android:src="@drawable/online" />
+
+            <Button
+                android:id="@+id/goto_online_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/onlineSearch"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="@string/main_to_online"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_icon"
+        android:layout_margin="15dp"
+        android:text="@string/main_explain_text"
+        android:textSize="20sp" />
+</RelativeLayout>

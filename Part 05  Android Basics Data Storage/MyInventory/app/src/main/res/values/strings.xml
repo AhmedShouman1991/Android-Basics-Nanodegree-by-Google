@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Inventory</string>
+    <string name="empty_view_title_text">It\'s seems empty here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+    <string name="product_name_hint">Product Name</string>
+    <string name="product_quantity_hint">Quantity</string>
+    <string name="product_price_hint">Price</string>
+    <string name="product_name">Name:</string>
+    <string name="product_quantity">Quantity:</string>
+    <string name="product_price">Price:</string>
+    <string name="product_supplier">Supplier:</string>
+
+    <string name="increase_quantity">+</string>
+    <string name="decrease_quantity">-</string>
+
+    <string name="supplier_name">Company Name:</string>
+    <string name="manager_name">Authorized Name:</string>
+    <string name="com_phone">Authorized phone:</string>
+    <string name="com_email">Authorized email:</string>
+    <string name="supplier_name_hint">Manager Name</string>
+    <string name="supplier_company_hint">Company Name</string>
+    <string name="supplier_phone_hint">Phone Number</string>
+    <string name="supplier_email_hint">Email Address</string>
+
+    <string name="action_suppliers_list">Suppliers List</string>
+    <string name="action_products_list">Products list</string>
+    <string name="action_delete_all_entries">Delete All</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="make_order">order from supplier</string>
+
+    <string name="delete_all_dialog_msg">Delete all products?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="delete_all_products_successfully">All products deleted successfully</string>
+    <string name="delete_all_products_failed">delete all products failed</string>
+
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+
+</resources>

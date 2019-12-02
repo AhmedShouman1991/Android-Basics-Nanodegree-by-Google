@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/img_and_name"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/item_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:minHeight="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gad" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="#88000000"
+            android:fontFamily="serif-monospace"
+            android:padding="15dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            tools:text="Gad Restaurants" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/offers_img"
+            style="@style/lis_item_icon"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/sharp_local_offer_black_24" />
+
+
+        <TextView
+            android:id="@+id/type_input"
+            style="@style/list_item_text"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/offers_img"
+            android:layout_toRightOf="@id/offers_img"
+            tools:text="Cheep place " />
+
+        <ImageView
+            android:id="@+id/time_img"
+            style="@style/lis_item_icon"
+            android:layout_below="@id/offers_img"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/sharp_av_timer_black_24" />
+
+
+        <TextView
+            android:id="@+id/o_hours_input"
+            style="@style/list_item_text"
+            android:layout_below="@id/type_input"
+            android:layout_marginTop="9dp"
+            android:layout_toEndOf="@id/time_img"
+            android:layout_toRightOf="@id/time_img"
+            tools:text="From 8:00 pm to 10:00 pm  " />
+
+        <ImageView
+            android:id="@+id/location_img"
+            style="@style/lis_item_icon"
+            android:layout_below="@id/time_img"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/sharp_my_location_black_24" />
+
+        <TextView
+            android:id="@+id/location_input"
+            style="@style/list_item_text"
+            android:layout_below="@id/o_hours_input"
+            android:layout_marginTop="9dp"
+            android:layout_toEndOf="@id/location_img"
+            android:layout_toRightOf="@id/location_img"
+            tools:text="" />
+    </RelativeLayout>
+
+</LinearLayout>

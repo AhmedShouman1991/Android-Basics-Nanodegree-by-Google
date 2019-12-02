@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="array_ans">
+        <item>@string/q1_ans_1</item>
+        <item>@string/q1_ans_2</item>
+        <item>@string/q1_ans_3</item>
+        <item>@string/q1_ans_4</item>
+    </string-array>
+</resources>

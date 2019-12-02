@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Music</string>
+    <string name="Local_Music">Local Music</string>
+    <string name="Online_Store">Online Store</string>
+    <string name="Music_Player">Music Player</string>
+    <string name="Music_Info">Music Info</string>
+    <string name="Buy_Song">Buy Song</string>
+
+    <string name="main_to_local">Local Music</string>
+    <string name="main_to_online">Online Store</string>
+    <string name="main_explain_text">This is the Main Activity,
+        the user can choose to play local songs on
+        his phone storage or to buy songs from
+        the online store.</string>
+
+    <string name="local_header_text">Local Music List</string>
+    <string name="local_s1_name">Solo Dance</string>
+    <string name="local_a1_name">Martin Jensen</string>
+    <string name="local_s2_name">Heathens</string>
+    <string name="local_a2_name">twenty one pilots</string>
+    <string name="local_explain_text">
+        in this activity the user can choose the Music files saved in his
+        local mobile storage, when the user click on the song he will move to Music player
+        activity and when he do a long click on the song he will move to Song Information
+        Activity to view each song information.
+    </string>
+    <string name="music_info_explain">
+        This is the Information Activity here we can view each song Information
+    </string>
+    <string name="song_info_name">Song Name: </string>
+    <string name="song_artist_name">Artist Name: </string>
+    <string name="player_explain">
+        In this activity we play the music already selected from local music activity.
+    </string>
+    <string name="top_online_explain">
+        In this Online Store Activity the user can choose a song to buy from the store.
+    </string>
+    <string name="payment_header">
+        Song Information
+    </string>
+    <string name="payment_s_name">
+        Name:
+    </string>
+    <string name="payment_a_name">
+        Artist:
+    </string>
+
+    <string name="payment_explain">
+        Here we use the google pay Api to complete the user payment, First we need to configure the project then
+        determine readyToPay( ) method then show the google payment Button,
+        finally LoadPaymentData( ). Google check if the user card information is right and
+        if it is right the payment complete and the user can download the song.
+    </string>
+</resources>

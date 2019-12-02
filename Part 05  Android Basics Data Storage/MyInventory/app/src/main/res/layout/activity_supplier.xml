@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/company_name"
+            style="@style/info_fields"
+            android:text="@string/supplier_name" />
+
+        <TextView
+            android:id="@+id/employee_name"
+            style="@style/info_fields"
+            android:text="@string/manager_name" />
+        <TextView
+            android:id="@+id/phone_number"
+            style="@style/info_fields"
+            android:text="@string/com_phone" />
+        <TextView
+            android:id="@+id/email"
+            style="@style/info_fields"
+            android:text="@string/com_email" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/com_edit_company_name"
+            style="@style/supplier_edit_text_fields"
+            android:hint="@string/supplier_company_hint" />
+
+
+        <EditText
+            android:id="@+id/com_edit_employee_name"
+            style="@style/supplier_edit_text_fields"
+            android:hint="@string/supplier_name_hint" />
+        <EditText
+            android:id="@+id/com_edit_phone"
+            style="@style/supplier_edit_text_fields"
+            android:hint="@string/supplier_phone_hint"
+            android:inputType="phone"/>
+        <EditText
+            android:id="@+id/com_edit_email"
+            style="@style/supplier_edit_text_fields"
+            android:hint="@string/supplier_email_hint"
+            android:inputType="textEmailAddress"/>
+
+    </LinearLayout>
+
+</LinearLayout>

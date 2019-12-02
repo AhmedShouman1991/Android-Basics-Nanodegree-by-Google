@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Simpa Quiz App</string>
+
+    <string name="q1">Question One:</string>
+    <string name="q1_text">What was the name of Simba\'s Father ? </string>
+    <string name="q1_ans_1">Scare</string>
+    <string name="q1_ans_2">Lion</string>
+    <string name="q1_ans_3">Timon</string>
+    <string name="q1_ans_4">Mofasa</string>
+
+
+    <string name="q2">Question Tow:</string>
+    <string name="q2_text">Select two of Simpa\'s friends who helped him.</string>
+    <string name="q2_ans_1">Timon</string>
+    <string name="q2_ans_2">Scare</string>
+    <string name="q2_ans_3">Bomba</string>
+    <string name="q2_ans_4">Lily</string>
+
+    <string name="q3">Question Three:</string>
+    <string name="q3_text">How many hyenas was chasing Simba in the valley ?</string>
+    <string name="q3_ans_hint">Type the number here</string>
+
+    <string name="q4">Question Four:</string>
+    <string name="q4_text">What was the name of Simba\'s Uncle?</string>
+    <string name="q4_ans_hint">Type the Name here</string>
+    <string name="q5">Question Five:</string>
+
+    <string name="name_hint">Name:</string>
+
+</resources>

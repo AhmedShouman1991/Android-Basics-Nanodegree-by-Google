@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop">
+
+        <RelativeLayout
+            android:id="@+id/groub_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img1"/>
+
+            <TextView
+                style="@style/main_activity_imgs_txt"
+                android:text="@string/img1_text"
+                tools:text="alexandria san stefano bridge" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/groub_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img2"/>
+
+            <TextView
+                style="@style/main_activity_imgs_txt"
+                android:text="@string/img2_text"
+                tools:text="alexandria" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/groub_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img3"/>
+
+            <TextView
+                style="@style/main_activity_imgs_txt"
+                android:text="@string/img3_text"
+                tools:text="alexandria" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/groub_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img4"/>
+
+            <TextView
+                style="@style/main_activity_imgs_txt"
+                android:text="@string/img4_text"
+                tools:text="alexandria" />
+
+        </RelativeLayout>
+
+    </ViewFlipper>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/click_to_start"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="#AA000000"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+</RelativeLayout>

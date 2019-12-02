@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.myscorekeeper.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/score_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/team_a_score_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/team_a_label"
+                android:text="Team A"
+                style="@style/TeamLabelStyle"/>
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:text="0"
+                style="@style/ScoreTextStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/team_b_score_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/team_b_label"
+                android:text="Team B"
+                style="@style/TeamLabelStyle"/>
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:text="0"
+                style="@style/ScoreTextStyle"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/scoring_buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/touchdown_container"
+            style="@style/ScoreTypeButtonContainerStyle">
+
+            <Button
+                android:id="@+id/team_a_touchdown"
+                style="@style/ScoreButtonStyle"
+                android:text="+6"
+                android:onClick="updateTeamScore"/>
+
+            <TextView
+                android:text="Touchdown"
+                style="@style/ScoreTypeLabelStyle"/>
+
+            <Button
+                android:id="@+id/team_b_touchdown"
+                style="@style/ScoreButtonStyle"
+                android:text="+6"
+                android:onClick="updateTeamScore"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/field_goal_container"
+            style="@style/ScoreTypeButtonContainerStyle">
+
+            <Button
+                android:id="@+id/team_a_field_goal"
+                style="@style/ScoreButtonStyle"
+                android:text="+3"
+                android:onClick="updateTeamScore"/>
+
+            <TextView
+                android:text="Field Goal"
+                style="@style/ScoreTypeLabelStyle"/>
+
+            <Button
+                android:id="@+id/team_b_field_goal"
+                style="@style/ScoreButtonStyle"
+                android:text="+3"
+                android:onClick="updateTeamScore"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/extra_point_container"
+            style="@style/ScoreTypeButtonContainerStyle">
+
+            <Button
+                android:id="@+id/team_a_extra_point_1"
+                style="@style/ScoreButtonStyle"
+                android:text="+1"
+                android:onClick="updateTeamScore"/>
+
+            <Button
+                android:id="@+id/team_a_extra_point_2"
+                style="@style/ScoreButtonStyle"
+                android:text="+2"
+                android:onClick="updateTeamScore"/>
+
+            <TextView
+                style="@style/ScoreTypeLabelStyle"
+                android:text="Extra Point" />
+
+            <Button
+                android:id="@+id/team_b_extra_point_1"
+                style="@style/ScoreButtonStyle"
+                android:text="+1"
+                android:onClick="updateTeamScore"/>
+
+            <Button
+                android:id="@+id/team_b_extra_point_2"
+                style="@style/ScoreButtonStyle"
+                android:text="+2"
+                android:onClick="updateTeamScore"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/safety_container"
+            style="@style/ScoreTypeButtonContainerStyle">
+
+            <Button
+                android:id="@+id/team_a_safety"
+                style="@style/ScoreButtonStyle"
+                android:text="+2"
+                android:onClick="updateTeamScore"/>
+
+            <TextView
+                style="@style/ScoreTypeLabelStyle"
+                android:text="Safety"/>
+
+            <Button
+                android:id="@+id/team_b_safety"
+                style="@style/ScoreButtonStyle"
+                android:text="+2"
+                android:onClick="updateTeamScore"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reset"
+            android:background="#333333"
+            android:textColor="#FFFFFF"
+            android:onClick="resetScores"/>
+
+    </LinearLayout>
+</LinearLayout>
